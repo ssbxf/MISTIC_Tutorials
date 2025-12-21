@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'STAligner'
+project = 'MISTIC'
 copyright = '2022, Xiang Zhou'
 author = 'Xiang Zhou'
 
