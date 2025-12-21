@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'MISTIC'
-copyright = '2022, Xiang Zhou'
-author = 'Xiang Zhou'
+copyright = '1'
+author = '1'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
