@@ -3,22 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-STAligner: Integrating spatial transcriptomics data across different conditions, technologies, and developmental stages
+1
 ====================================================================================================================================================
 
 .. toctree::
    :maxdepth: 1
    
-   Tutorial_DLPFC
-   Tutorial_DLPFC_12S
-   Tutorial_Cross_Platforms
-   Tutorial_embryo
-   Tutorial_3D_alignment
+   Untitled17
    
    
-Overview of STAligner
+Overview 
 ========================     
-.. image:: STAligner_Overview.png
+.. image:: figure1-01.png
    :width: 600
    
     
