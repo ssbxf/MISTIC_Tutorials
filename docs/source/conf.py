@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'MISTIC'
-copyright = '1'
-author = '1'
+copyright = '2026, Shuang Li'
+author = 'Shuang Li'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
