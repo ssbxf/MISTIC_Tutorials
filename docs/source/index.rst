@@ -10,7 +10,7 @@ Microenvironment-Guided Integration of Spatial Transcriptomic Information Across
    installation
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Tutorials
 
    Spatial slices integration for homologous individual samples
