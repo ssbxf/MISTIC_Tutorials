@@ -1,9 +1,9 @@
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: MISTIC
    :hidden:
 
-   self  
+   self
 
 .. toctree::
    :maxdepth: 1
@@ -13,22 +13,19 @@
    Spatial slices integration for homologous individual samples
    Spatial slices integration for heterogeneous samples
 
-
 MISTIC
 ====================================
 Microenvironment-Guided Integration of Spatial Transcriptomic Information Across Slices
 
-
 Overview
--------------------------     
+------------------------------------     
 .. image:: _static/figure1.png
    :width: 600
 
 **a.**  MISTIC accommodates integration of multi-slice omics data from the same or distinct tissues. For each spatial transcriptomic slice, three core matrices are derived via the BANKSY algorithm. **b.**  Two distinct matrices are built for each slice: (i) Spatial distance matrix; (ii) Expression similarity matrix. Global intra-slice matrices are formed by block-diagonal concatenation of slice-specific matrices across all slices. **c.**  Inter-slice mutual nearest neighbor (MNN) pairs are detected in the global feature matrix. The final inter-slice adjacency matrix retains only high-confidence MNN pairs. **d.** Inputs include gene expression data and microenvironment data combined with adjacency matrices, outputting batch-corrected latent features. **e.** The integrated latent features support three core applications: Batch effect removal(I), Condition-specific niche identification(II), Microenvironmental interaction analysis(III).
 
-
 Installation & Download
--------------------------
+------------------------------------
 To ensure the Graph Neural Networks (GNNs) run correctly, PyTorch Geometric (PyG) and its dependencies must be installed strictly matching your PyTorch and CUDA versions.
 
 .. code-block:: bash
@@ -62,11 +59,7 @@ Note: This is the most critical step. Do not simply use pip install torch-geomet
    # Install PyTorch Geometric
    pip install torch_geometric
 
-
 Tutorials
 ====================================
-.. toctree::
-   :maxdepth: 1
+Below are the detailed tutorials for using MISTIC:
 
-   Spatial slices integration for homologous individual samples
-   Spatial slices integration for heterogeneous samples
