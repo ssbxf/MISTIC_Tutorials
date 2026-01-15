@@ -1,3 +1,17 @@
+.. toctree::
+   :maxdepth: 2
+   :caption: MISTIC
+   :hidden:
+
+   self  
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Tutorials
+   :hidden:
+
+   Spatial slices integration for homologous individual samples
+   Spatial slices integration for heterogeneous samples
 
 
 MISTIC
